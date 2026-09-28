@@ -1,0 +1,17 @@
+# data, caches and large artifacts — never commit
+dataset/
+business_entity_resolution/work/
+business_entity_resolution/work_v3/
+business_entity_resolution/output*/
+business_entity_resolution/diag_lb/
+business_entity_resolution/emb/
+*.parquet
+*.npy
+*.tsv
+*.zip
+*.log
+*.out
+gpu/*.parquet
+gpu/Documentation_template.orig.md
+__pycache__/
+*.pyc
