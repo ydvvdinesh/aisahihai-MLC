@@ -236,20 +236,6 @@ python utils/validate_submission.py \
 
 ---
 
-## 📈 Results & Leaderboard Evolution
-
-| Version | Iteration Highlights | Validation Macro $F_{0.5}$ | Public LB Score |
-|---|---|---|---|
-| **v1** | Baseline Compound Blocking + LightGBM | 0.9656 | 0.9560 |
-| **v3** | + Group consistency features (degraded by test sibling clusters) | 0.9743 | 0.9210 |
-| **v5a** | + **LaBSE dense retrieval** for Indic scripts (GPU) | 0.9687 | **0.9610** |
-| **v7** | + House-number edit taxonomy + candidate score pruning | 0.9725 | — |
-| **v8** | + Learned word-difference log-odds + address coverage | 0.9773 | — |
-| **v9h** | + **XLM-RoBERTa Cross-Encoder** for uncertain pairs ($p \in [0.02, 0.98]$) | **0.9828** | — |
-| **v10r (Final)** | Full stack + **Transductive France adaptation** + exact restore | **0.9828** | **0.9779** |
-
----
-
 ## 👥 Authors & Acknowledgments
 
 - Developed for the **Amazon ML Challenge 2026** by Team BeyondBaseline.
